@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Conceptos básicos del Código HTML     </h1>
+    <hr>
+    <h2>1. Las partes de la página web    </h2>
+    <p>Toda página web se divide en dos partes principales: la cabecera y el cuerpo (head y  body).
+
+        La cabecera es la parte «no visible» de la página web. Esto significa que todo lo que se indique ahí no aparecerá en la página como tal, pero sin embargo es una parte importantísima: ahí se incluyen las etiquetas meta que se usan para describir la página (imprescindibles para el posicionamiento SEO), el título de la página, el idioma, información relacionada con hojas de estilo, etc.
+        
+        En el body se introducen todas las etiquetas que nos permiten dar formato al documento.
+        
+        Como esta guía está destinada a pequeñas modificaciones en el cuerpo de la página web, describiré las etiquetas del body y no mencionaré nada más sobre la cabecera. Pero si necesitas ahondar en el tema o en más lenguajes a parte de html, te dejo esta página web, que es excelente para pequeñas consultas que necesites.</p>
+        <hr>
+        <h2>2. Los títulos
+        </h2>
+        <p><img src="https://leonorcanuelo.com/wp-content/uploads/2015/12/1-1.png" width="600" height="300" align="right"> etiquetas que definen los títulos se pueden utilizar para marcar el título y/o los diferentes apartados que forman el documento, o simplemente para resaltar cualquier texto. Existen seis tipos de títulos, que van de la etiqueta número 1 (la más grande) a la 6 (la más pequeña). Esto también es muy importantes para el posicionamiento en buscadores, ya que les estás indicando que lo que está entre estas etiquetas es importante y característico de tu web.</p>
+        <hr>
+        <br>
+        <h2>3. Los párrafos</h2>
+        <p><img src="https://leonorcanuelo.com/wp-content/uploads/2015/12/2-1-1080x278.png" width="400" height="200" align="left" >Los párrafos se delimitan con las etiquetas p…p. Un párrafo es un bloque de texto que se muestra separado del resto por un salto de línea. Si dentro del párrafo queremos hacer un salto, pero que se siga considerando un único párrafo (dar un intro en word) escribiríamos la etiqueta br.
+
+        Sin embargo, si quieres escribir de manera libre y que te detecte los saltos de línea, solo tienes que escribir dentro de la etiqueta pre…pre. El único inconveniente de esto es que si copias el texto de otro documento y tiene además listas, títulos, negritas… es posible que no te lo detecte todo.</p>
+        <hr>
+        <br>
+        <h2>4. Las listas</h2>
+        <p>Existen tres tipos de listas, las ordenadas, las no ordenadas y las listas de definiciones.
+
+            Para las listas ordenadas usamos las etiquetas ol…/ol para delimitar la lista, y para las listas no ordenadas, las etiquetas ul…/ul. Para insertar cada elemento de la lista se introducen las etiquetas li…/li.
+            
+            En las listas de definiciones, insertamos las etiquetas dl…/dl para delimitar la lista, y dt…/dt y dd…/dd para el título y definición respectivamente.</p>
+<img src="https://leonorcanuelo.com/wp-content/uploads/2015/12/3-1.png" alt="listas">
+        <hr>
+        <h2>5. Las tablas
+        </h2>
+        <p>Para realizar una tabla debemos tener en cuenta que se está realizando de izquierda a derecha y de arriba abajo. Es decir, empezamos desarrollando la primera fila, dentro de ella, las determinadas columnas que haya, y a continuación, la siguiente fila.
+
+            La tabla debe ir entre la etiqueta table, especificando el borde que deseamos. Los comandos que nos delimitan las filas son tr…/tr, y para las columnas td…/td.  Para combinar varias columnas o filas utilizamos los atributos colspan o rowspan respectivamente. Si quieres destacar una fila o columna para que se comporte como título utilizamos th…/th. Te muestro un ejemplo.</p>
+            <img src="https://leonorcanuelo.com/wp-content/uploads/2015/12/4.png" alt="tablas">
+            <hr>
+            <h2>6. Los enlaces
+            </h2>
+            <p>Los enlaces nos permiten acceder a otras páginas, sitios web, ficheros (de música, vídeos, programas, imágenes, etc.), permiten descargar archivos de la red y acceder a otras partes o secciones dentro de un documento. Se realizan con la etiqueta a href="http://www.enlace.com">.../a. Aquí debo mencionar un atributo muy importante: target="_blank", para que el enlace se abra en una pestaña nueva del navegador.</p>
+            <hr>
+            <h2>7. Atributos y estilos
+            </h2>
+            <p>Por último, he querido hacer una selección de los atributos y estilos más usados en html. Lo normal es que los estilos se especifiquen en el fichero css, pero como he pretendido que esta guía sirva para realizar pequeñas modificaciones esporádicas, considero que aplicar estilos directamente en una etiqueta de html es una opción recomendable y que nos permite dar solución a problemas que no podemos solventar en nuestro cms, o porque la plantilla no nos da opción.
+
+                A continuación te muestro una serie de atributos. Éstos se colocan siempre dentro de una etiqueta, por ejemplo de la siguiente manera: body bgcolor="blue".../body
+                
+                background="nombre-del-fichero": Imagen de fondo
+                bgcolor="color": Color del fondo
+                border="número": Tamaño del borde de una imagen o tabla
+                bordercolor="color": Color del borde
+                width="px o %": Ancho de una imagen, tabla o bloque. Se puede especificar en píxeles o en porcentaje, siendo 100% el tamaño completo de la pantalla
+                height="px o %": Altura de una imagen, tabla o bloque
+                align="top, middle, bottom, left, right": Alineación de una imagen, texto, título, tabla… arriba, en medio, abajo, izquierda o derecha, respectivamente
+                Te adjunto una lista de los colores que reconoce html por el nombre. Para el resto de colores, deberás introducir el código en concreto, en formato hexadecimal.</p>
+
+
+                
+
+                <section class="referencias ">
+
+                    <p>referencias biliograficas - https://leonorcanuelo.com/conceptos-basicos-html/ </p>
+                
+                       <a class = "volver"href="index.html">Volver</a>
+                </section>
+</body>
+</html>
