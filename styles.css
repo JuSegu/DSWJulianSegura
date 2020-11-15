@@ -109,3 +109,10 @@ aside{
     text-align: center;
     display: inline;
 }
+
+.form{
+    text-align: center;
+    background-color: lightskyblue;
+    font-weight: bolder;
+    
+}
